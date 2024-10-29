@@ -2,6 +2,8 @@
 
 Bot that verifies if correction slots are to be found on a specific 42 school project.
 
+This project I initially made with [artygo8](https://github.com/artygo8) in this [repository](https://github.com/artygo8/FindSlots-42), I re-uploaded it on my profile for [obsidian transfer](https://github.com/artainmo/github_to_obsidian).
+
 ## Usage
 
   Set environment
@@ -20,15 +22,11 @@ Bot that verifies if correction slots are to be found on a specific 42 school pr
 
 ## Explained
 
-  This program uses selenium to launch a Firefox browser.
+This program uses selenium to launch a Firefox browser.
 
-  It will then refresh the page to find correction slots every 42 seconds and notify with a sound and eventually email when there is an available slot on the page.
+It will then refresh the page to find correction slots every 42 seconds and notify with a sound and eventually email when there is an available slot on the page.
 
-  It also shows progress in the terminal like so : `.....!.` where `.` means that there are no available slots and `!` means the bot found a slot on the page.
-
-## Screenshot
-
-![screenshot](.other/ScreenShot.png)
+It also shows progress in the terminal like so : `.....!.` where `.` means that there are no available slots and `!` means the bot found a slot on the page.
 
 ## Current requirements
 
